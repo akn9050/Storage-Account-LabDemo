@@ -68,3 +68,21 @@ It will take a few minutes to deploy the account. While Azure is working on that
 
 1. Select the **Storage accounts** link in the left sidebar.
 2. Locate the new storage account in the list to verify that creation succeeded.
+
+# Exercise 2 - Create a Container and Upload file sing Azure portal
+
+To create a container in the Azure portal, follow these steps:
+
+1. Navigate to your new storage account in the Azure portal.
+2. In the left menu for the storage account, scroll to the **Blob service** section, then select **Containers**.
+3. Select the + **Container** button.
+4. Type a name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+5. Set the level of public access to the container. The default level is **Private (no anonymous access).**
+6. Select **OK** to create the container.
+![container](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/create-container.png)
+
+
+
+
+
+
