@@ -16,7 +16,7 @@ The free sandbox allows you to create resources in a subset of the Azure global 
 Under **PROJECT DETAILS:**
 - Select the Concierge Subscription from the **Subscription** drop-down list.
 
-- Select the existing Resource Group (**"[xxxxxxxxxxxxxx]"**) from the drop-down list.
+- Select the existing Resource Group (**"[odl-demo-****]"**) from the drop-down list.
 
 Under **INSTANCE DETAILS:**
 
