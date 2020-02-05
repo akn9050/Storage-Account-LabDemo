@@ -69,7 +69,7 @@ It will take a few minutes to deploy the account. While Azure is working on that
 1. Select the **Storage accounts** link in the left sidebar.
 2. Locate the new storage account in the list to verify that creation succeeded.
 
-# Exercise 2 - Create a Container and Upload file sing Azure portal
+# Exercise 2 - Create a Container and Upload file using Azure portal
 
 To create a container in the Azure portal, follow these steps:
 
@@ -79,7 +79,39 @@ To create a container in the Azure portal, follow these steps:
 4. Type a name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
 5. Set the level of public access to the container. The default level is **Private (no anonymous access).**
 6. Select **OK** to create the container.
+
 ![container](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/create-container.png)
+
+## Upload a block blob
+
+Block blobs consist of blocks of data assembled to make a blob. Most scenarios using Blob storage employ block blobs. Block blobs are ideal for storing text and binary data in the cloud, like files, images, and videos. This quickstart shows how to work with block blobs.
+
+To upload a block blob to your new container in the Azure portal, follow these steps:
+
+1. In the Azure portal, navigate to the container you created in the previous section.
+2. Select the container to show a list of blobs it contains. Since this container is new, it won't yet contain any blobs.
+3. Select the **Upload** button to open the upload blade
+4. Browse your local file system to find a file to upload as a block blob
+
+![block blob](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/upload-blob.png)
+
+5. Optionally, expand the advanced section to define other setting such as authentication type, access tier, or virtual folder path.
+6. Select the **Upload** button to commit the upload
+7. Upload as many blobs as you like in this way. You'll see that the new blobs are now listed within the container.
+
+## Download a block blob
+
+You can download a block blob to display in the browser or save to your local file system. To download a block blob, follow these steps:
+
+1. Navigate to the list of blobs that you uploaded in the previous section.
+2. Right-click the blob you want to download, and select **Download.**
+
+
+
+
+
+
+
 
 
 
