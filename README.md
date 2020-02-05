@@ -1,4 +1,4 @@
-# Exercise 1 - Create a storage account using the Azure portal
+# Exercise 1 - Create a storage account using Azure portal
 Use the Azure portal to create a storage account
 - Sign into the <https://portal.azure.com>  using your credentials.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
