@@ -9,6 +9,7 @@ Use the Azure portal to create a storage account
 ![Storage.](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
    
 Under **PROJECT DETAILS:**
+
 - Select the Concierge Subscription from the **Subscription** drop-down list.
 
 - Select the existing Resource Group (**"[odl-demo-****]"**) from the drop-down list.
