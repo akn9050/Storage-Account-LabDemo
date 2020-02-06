@@ -1,25 +1,5 @@
-# Exercise 1 - Login into LabVM using RDP
-1 locate your VM in the **Resource group**. Open the LABVM and select Connect.
 
-![LabVM](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image7.png)
-
-2 Login to the LABVM using the following credentials:
-
-- Username: demouser
-
-- Password: Password.1!!
-
-![usenamepromt](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/useerpassword.png)
-
-3 A Remote Desktop Warning will appear. Select **Don't ask me again for connections to this computer** and then select Yes.
-
-![usenamepromt](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/rdpnotification.png)
-
-4. You will receive a message about allowing your PC to be discoverable. Select **No**
-
-![networknotification](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/networknotification.png)
-
-# Exercise 2 - Create a storage account using Azure portal
+# Exercise 1 - Create a storage account using Azure portal
 Use the Azure portal to create a storage account
 - Login into the <https://portal.azure.com>  using your credentials.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
@@ -27,13 +7,6 @@ Use the Azure portal to create a storage account
 - On the right side of that pane, select **Storage account**.
 
 ![Storage Account](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image1.png)
-### Configure the basic options
-The free sandbox allows you to create resources in a subset of the Azure global regions. Select a region from the following list when you create resources:
-
-- West US 2                                                                   
-- East US 2                                     
-- East US                                        
-- West US  
 
 Under **PROJECT DETAILS:**
 - Select the Concierge Subscription from the **Subscription** drop-down list.
@@ -46,7 +19,7 @@ Under **INSTANCE DETAILS:**
 
 2. Select a **Location near** to you from the list above.
 
-3. Select Standard for the **Performance** option. This decides the type of disk storage used to hold the data in the Storage account. Standard uses traditional hard disks, and Premium uses solid-state drives (SSD) for faster access. However, remember that Premium only supports page blobs. You'll need block blobs for your videos, and a queue for buffering - both of which are only available with the Standard option.
+3. Select Standard for the **Performance** option. This decides the type of disk storage used to hold the data in the Storage account. Standard uses traditional hard disks, and Premium uses solid-state drives (SSD) for faster access. However, remember that Premium only supports page blobs.
 
 4. Select StorageV2 (general purpose v2) for the **Account kind**. This provides access to the latest features and pricing. In particular, Blob storage accounts have more options available with this account type. You need a mix of blobs and a queue, so the Blob storage option will not work. For this application, there would be no benefit to choosing a Storage (general purpose v1) account, since that would limit the features you could access and would be unlikely to reduce the cost of your expected workload.
 
