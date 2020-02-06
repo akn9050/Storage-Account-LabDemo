@@ -1,4 +1,25 @@
-# Exercise 1 - Create a storage account using Azure portal
+# Exercise 1 - Login into LabVM using RDP
+1 locate your VM in the **Resource group**. Open the LABVM and select Connect.
+
+![LabVM](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image7.png)
+
+2 Login to the LABVM using the following credentials:
+
+- Username: demouser
+
+- Password: Password.1!!
+
+![usenamepromt](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/useerpassword.png)
+
+3 A Remote Desktop Warning will appear. Select **Don't ask me again for connections to this computer** and then select Yes.
+
+![usenamepromt](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/rdpnotification.png)
+
+4. You will receive a message about allowing your PC to be discoverable. Select **No**
+
+![networknotification](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/networknotification.png)
+
+# Exercise 2 - Create a storage account using Azure portal
 Use the Azure portal to create a storage account
 - Login into the <https://portal.azure.com>  using your credentials.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
@@ -69,7 +90,7 @@ It will take a few minutes to deploy the account. While Azure is working on that
 1. Select the **Storage accounts** link in the left sidebar.
 2. Locate the new storage account in the list to verify that creation succeeded.
 
-# Exercise 2 - Create a Container and Upload file using Azure portal
+# Exercise 3 - Create a Container and Upload file using Azure portal
 
 To create a container in the Azure portal, follow these steps:
 
