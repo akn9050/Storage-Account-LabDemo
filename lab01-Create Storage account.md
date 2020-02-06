@@ -25,14 +25,14 @@ Under **INSTANCE DETAILS:**
 
 The following screenshot shows the completed settings for the **Basics** tab. Note that the resource group, subscription, and name will have different values.
 
-![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image%202.png)
+<img src="images/str2.jpg"/><br/>
       
 # Configure the networking options
 
 1. Click the **Next: Networking >** button to move to the **Networking** tab, or select the **Networking** tab at the top of the screen.
 2. Set the **Connectivity** method option to Public endpoint (all networks). This option allows you to isolate the storage account on an Azure virtual network. We want to use public Internet access. Our content is public facing and you need to allow access from public clients.
 
-![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-network.png)
+<img src="images/str3.jpg"/><br/>
 
 # Configure the advanced options 
 1. Click the **Next: Advanced >** button to move to the **Advanced** tab, or select the **Advanced** tab at the top of the screen.
@@ -47,7 +47,7 @@ The following screenshot shows the completed settings for the **Basics** tab. No
 
 The following screenshot shows the completed settings for the **Advanced** tab.
 
-![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-advanced.png)
+<img src="images/str4.jpg"/><br/>
 
 ### Create
 
