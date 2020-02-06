@@ -1,13 +1,12 @@
-
 # Exercise 1 - Create a storage account using Azure portal
 Use the Azure portal to create a storage account
-- Login into the <https://portal.azure.com>  using your credentials.
+- Login into the <https://portal.azure.com> using your credentials.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
 - Select **Storage** under **Azure Marketplace**.
 - On the right side of that pane, select **Storage account**.
-     
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
-   
+
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
+
 Under **PROJECT DETAILS:**
 
 - Select the Concierge Subscription from the **Subscription** drop-down list.
@@ -30,14 +29,14 @@ Under **INSTANCE DETAILS:**
 
 The following screenshot shows the completed settings for the **Basics** tab. Note that the resource group, subscription, and name will have different values.
 
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image%202.png)
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image%202.png)
       
 # Configure the networking options
 
-1. Click the **Next: Networking >** button to move to the **Networking** tab, or select the **Networking** tab at the top of the screen
+1. Click the **Next: Networking >** button to move to the **Networking** tab, or select the **Networking** tab at the top of the screen.
 2. Set the **Connectivity** method option to Public endpoint (all networks). This option allows you to isolate the storage account on an Azure virtual network. We want to use public Internet access. Our content is public facing and you need to allow access from public clients.
 
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-network.png)
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-network.png)
 
 # Configure the advanced options 
 1. Click the **Next: Advanced >** button to move to the **Advanced** tab, or select the **Advanced** tab at the top of the screen.
@@ -52,7 +51,8 @@ The following screenshot shows the completed settings for the **Basics** tab. No
 
 The following screenshot shows the completed settings for the **Advanced** tab.
 
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-advanced.png)
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/5-create-storage-account-advanced.png)
+
 ### Create
 
 1. Click **Review + create** to review the settings. This will do a quick validation of your options to make sure all the required fields are selected. If there are issues, they'll be reported here. Once you've reviewed the settings, click **Create** to provision the storage account.
@@ -75,7 +75,7 @@ To create a container in the Azure portal, follow these steps:
 5. Set the level of public access to the container. The default level is **Private (no anonymous access).**
 6. Select **OK** to create the container.
 
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/create-container.png)
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/create-container.png)
 
 ## Upload a block blob
 
@@ -85,13 +85,13 @@ To upload a block blob to your new container in the Azure portal, follow these s
 
 1. In the Azure portal, navigate to the container you created in the previous section.
 2. Select the container to show a list of blobs it contains. Since this container is new, it won't yet contain any blobs.
-3. Select the **Upload** button to open the upload blade
-4. Browse your local file system to find a file to upload as a block blob
+3. Select the **Upload** button to open the upload blade.
+4. Browse your local file system to find a file to upload as a block blob.
 
-  ![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/upload-blob.png)
+![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/upload-blob.png)
 
 5. Optionally, expand the advanced section to define other setting such as authentication type, access tier, or virtual folder path.
-6. Select the **Upload** button to commit the upload
+6. Select the **Upload** button to commit the upload.
 7. Upload as many blobs as you like in this way. You'll see that the new blobs are now listed within the container.
 
 ## Download a block blob
@@ -100,16 +100,3 @@ You can download a block blob to display in the browser or save to your local fi
 
 1. Navigate to the list of blobs that you uploaded in the previous section.
 2. Right-click the blob you want to download, and select **Download.**
-
-
-
-
-
-
-
-
-
-
-
-
-
