@@ -64,7 +64,7 @@ It will take a few minutes to deploy the account. While Azure is working on that
 1. Select the **Storage accounts** link in the left sidebar.
 2. Locate the new storage account in the list to verify that creation succeeded.
 
-# Exercise 3 - Create a Container and Upload file using Azure portal
+# Exercise 2 - Create a Container and Upload file using Azure portal
 
 To create a container in the Azure portal, follow these steps:
 
