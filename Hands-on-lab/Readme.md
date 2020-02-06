@@ -17,7 +17,7 @@ Under **INSTANCE DETAILS:**
 
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
 
-2. Select a **Location near** to you from the list above.
+2. Select a **Location** same as **Resource Group** Location.
 
 3. Select Standard for the **Performance** option. This decides the type of disk storage used to hold the data in the Storage account. Standard uses traditional hard disks, and Premium uses solid-state drives (SSD) for faster access. However, remember that Premium only supports page blobs.
 
