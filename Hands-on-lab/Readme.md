@@ -5,8 +5,9 @@ Use the Azure portal to create a storage account
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
 - Select **Storage** under **Azure Marketplace**.
 - On the right side of that pane, select **Storage account**.
-  ![Storage Account](Images/storasge.png)
-
+   
+   ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right.](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
+   
 Under **PROJECT DETAILS:**
 - Select the Concierge Subscription from the **Subscription** drop-down list.
 
