@@ -12,7 +12,7 @@ Under **PROJECT DETAILS:**
 
 - Select the Concierge Subscription from the **Subscription** drop-down list.
 
-- Select the existing Resource Group (**"[odl-demo-xxxx]"**) from the drop-down list.
+- Select the existing Resource Group **odl-demo-xxxx** from the drop-down list.
 
 Under **INSTANCE DETAILS:**
 
