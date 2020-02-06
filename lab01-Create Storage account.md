@@ -3,18 +3,14 @@ Use the Azure portal to create a storage account
 - Login into the <https://portal.azure.com> using your credentials.
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
 - Select **Storage** under **Azure Marketplace**.
-- On the right side of that pane, select **Storage account**.
-
-![](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
-
-Under **PROJECT DETAILS:**
-
+- On the right side of that pane, select **Storage account**.<br/>
+  
+  <img src="images/str1.jpg"/><br/>
+ 
+ Under **PROJECT DETAILS:**
 - Select the Concierge Subscription from the **Subscription** drop-down list.
-
 - Select the existing Resource Group **odl-demo-xxxx** from the drop-down list.
-
 Under **INSTANCE DETAILS:**
-
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
 
 2. Select a **Location** same as **Resource Group** Location.
