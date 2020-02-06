@@ -6,7 +6,7 @@ Use the Azure portal to create a storage account
 - Select **Storage** under **Azure Marketplace**.
 - On the right side of that pane, select **Storage account**.
 
-  ![Storage](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
+     ![Storage](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
    
 Under **PROJECT DETAILS:**
 
@@ -30,7 +30,7 @@ Under **INSTANCE DETAILS:**
 
 The following screenshot shows the completed settings for the **Basics** tab. Note that the resource group, subscription, and name will have different values.
 
-![Storage Account](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image%202.png)
+   ![Storage Account](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/image%202.png)
 # Configure the networking options
 
 1. Click the **Next: Networking >** button to move to the **Networking** tab, or select the **Networking** tab at the top of the screen
