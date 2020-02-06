@@ -5,7 +5,6 @@ Use the Azure portal to create a storage account
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
 - Select **Storage** under **Azure Marketplace**.
 - On the right side of that pane, select **Storage account**.
-
      
    ![Storage](https://github.com/Gvashi/Storage-Account-LabDemo/blob/master/Images/storasge.png)
    
