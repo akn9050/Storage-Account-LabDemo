@@ -8,7 +8,7 @@ Use the Azure portal to create a storage account
   <img src="images/str1.jpg"/><br/>
  
  Under **PROJECT DETAILS:**
-- Select the Concierge Subscription from the **Subscription** drop-down list.
+- In the Subscription field, select the **subscription** in which to create the storage account
 - Select the existing Resource Group **odl-demo-xxxx** from the drop-down list.
 Under **INSTANCE DETAILS:**
 1. Enter a **Storage account name**. The name will be used to generate the public URL used to access the data in the account. The name must be unique across all existing storage account names in Azure. Names must be 3 to 24 characters long and can contain only lowercase letters and numbers.
