@@ -39,7 +39,8 @@ If you plan to use **Azure Data Lake Storage**, choose the **Advanced tab**, and
 ### Create
 
 1. Click **Review + create** to review the settings. This will do a quick validation of your options to make sure all the required fields are selected. If there are issues, they'll be reported here. Once you've reviewed the settings.
-click **Create** to provision the storage account.
+
+Click **Create** to provision the storage account.
 
 It will take a few minutes to deploy the account.
 
