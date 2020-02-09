@@ -74,7 +74,7 @@ To create a container in the Azure portal, follow these steps:
 
 ## Upload a block blob
 
-Block blobs consist of blocks of data assembled to make a blob. Most scenarios using Blob storage employ block blobs. Block blobs are ideal for storing text and binary data in the cloud, like files, images, and videos. This quickstart shows how to work with block blobs.
+Block blobs consist of blocks of data assembled to make a blob. Most scenarios using Blob storage deploy block blobs. Block blobs are ideal for storing text and binary data in the cloud, like files, images, and videos. This quickstart shows how to work with block blobs.
 
 To upload a block blob to your new container in the Azure portal, follow these steps:
 
