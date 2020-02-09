@@ -1,5 +1,29 @@
+# Introduction to Azure Portal
+
+**Excercise 1: Sign Up for pre configured environment**<br/>
+
+In this exercise, you will create a source environment.
+
+1.**Navigate** to bitly link which was provided by instructor and register by providing all required information and **clicking** on **SUBMIT button**.<br/>
+2.Once registration is accepted, you will be automatically redirected to the lab activation page. Now, it is advised to save a copy of the URL on the browser, which has the activation id. **Click** on the Launch **Lab button**.<br/>
+3.You will see the environment details soon below.<br/>
+
+Please ensure to take the values assigned to your deployment.<br/>
+
+**Excercise 2: Log into your Azure Portal and Verify access to the Subscription**<br/>
+
+In this exercise, you will log into the Azure Portal using your Azure credentials and you will verify the type of role you are assigned 
+1.**Navigate** to https://portal.azure.com and login (from the previous step).<br/>
+
+2.**Enter** the Username which was displayed in the previous window and **click** on **Next**.
+
+3.In the Stay signed in? pop-up window, click No. Enter the Password and click on **Sign in**.
+
+4.In the Welcome to **Microsoft Azure** pop-up window, click **Maybe Later**. Initialize the **Azure CLI**.
+
 # Exercise 1 - Create a storage account using Azure portal
 Use the Azure portal to create a storage account
+
 
 - **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
 - On the Azure portal menu or from the **Home** page, select **Create a resource**.
