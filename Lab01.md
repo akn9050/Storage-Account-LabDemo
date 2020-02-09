@@ -3,7 +3,7 @@ Use the Azure portal to create a storage account
 
 - **Login** to [Azure portal](https://portal.azure.com) using the credentials provided in the environment details page. You will be having access to one resource group.</br>
 
-- On the Azure portal menu or from the **Home** page, select **Create a resource**.
+- On the Azure portal menu or from the **Home** page, select **Create a resource**.<br/>
 
 - Select **Storage** under **Azure Marketplace** and click select **Storage account**.<br/>
  
